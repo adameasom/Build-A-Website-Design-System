@@ -1,0 +1,395 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2) format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+}
+
+/* End of typeface input */
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Font CSS */
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Extra Font Styles */
+.mini {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bold700 {
+    font-weight: 700;
+}
+
+.bold600 {
+    font-weight: 600;
+}
+
+.em {
+    font-style: italic;
+}
+
+
+
+/* Sections */
+header {
+    border-bottom: 2px solid #000000;
+}
+header h1 {
+    padding-left: 20px;
+}
+
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    padding: 20px 0;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 50px 150px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #727272;
+    border-top: 2px solid #000000;
+    padding: 20px 0;
+}
+
+/* Standard Button Style */
+button {
+    padding: 8px 10px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+/* Dotted Line Break */
+.dot-line {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+ 
+/* Navigation */
+.nav-bar a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-bar a:visited {
+    color: #000000;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+/* Back to Top Button */
+.top-btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.top-btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 5%;
+    padding: 20px 0 0 0;
+    transition: 0.5s;
+}
+
+.arrow-up {
+    border: solid #000000;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    transform: rotate(-135deg);
+}
+
+a .top-btn:hover {
+    padding: 0;
+    transition: 0.5s;
+}
+
+/* Section Containers */ 
+.color-container, .font-container, .button-container {
+    background-color: #e4e4e44c;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    border-left: 2px solid #000000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px 10px 10px 10px;
+}
+
+.headings-container {
+    background-color: #e4e4e44c;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-left: 2px solid #000000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+.font-container {
+    gap: 4em;
+    padding: 0 10px 10px 10px;
+}
+
+.button-container {
+    justify-content: space-around;
+}
+
+/* Colors Section */
+.color-intro {
+    padding-bottom: 20px;
+}
+
+.color-item {
+    text-align: center;
+}
+
+.color-box {
+    height: 120px;
+    width: 120px;
+    border-radius: 5%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+}
+
+.color-red {
+    background-color: #FF6060;
+    color: #FF6060;
+}
+
+.color-orange {
+    background-color: #FFB060;
+    color: #FFB060;
+}
+
+.color-yellow {
+    background-color: #FFFF60;
+    color: #FFFF60;
+}
+
+.color-green {
+    background-color: #60FF60;
+    color: #60FF60;
+}
+
+.color-blue {
+    background-color: #6060FF;
+    color: #6060FF;
+}
+
+.color-indigo {
+    background-color: #603082;
+    color: #603082;
+}
+
+.color-violet {
+    background-color: #9460D3;
+    color: #9460D3;
+}
+
+.color-bk {
+    transition: 0.5s;
+}
+
+.color-bk:hover {
+    color: #000000;
+    cursor: default;
+    transition: 0.5s;
+}
+
+.color-wh {
+    transition: 0.5s;
+}
+
+.color-wh:hover {
+    color: #FFFFFF;
+    cursor: default;
+    transition: 0.5s;
+}
+
+/* Fonts Section */
+.font-item p {
+    line-height: 1em;
+}
+.font-name {
+    width: fit-content;
+    border-left: 2px solid #000000;
+    padding: 5px;
+}
+
+/* Text Styles Section */
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.hd-info {
+    text-align: right;
+}
+
+/* Buttons Sections */
+.btn-box {
+    text-align: center;   
+}
+
+.nav-button {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.btn-2 {
+    background-color: #ffffff;
+    border: 2px solid #ffffff00;
+    
+}
+
+.btn-2:hover {
+    border: 2px solid #000000;
+    transition: 0.3s;
+}
+
+.btn-3:active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Footer Section */
+footer p {
+    padding-left: 20px;
+}
+
+.code-text {
+    border: 3px solid #000000;
+}
+
+.c-text {
+    text-decoration: underline 3px;
+}
+
+
+/* Unique CSS */
+#quote {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#buttons {
+    padding-bottom: 70px;
+}
+
+#codecademy {
+    color: #000000;
+}
